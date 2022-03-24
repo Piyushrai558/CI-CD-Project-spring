@@ -12,6 +12,6 @@ public class WelcomeController {
 	}
 
 	@GetMapping("/")
-	public String homepage() {return  "This is home page";}
+	public String homepage() {return  "This is home page for spring boot aws beanstalk example";}
 
 }
