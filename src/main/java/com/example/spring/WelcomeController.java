@@ -8,7 +8,7 @@ public class WelcomeController {
 	
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "Deploying rest api";
+		return "Deploying rest api through elastic bean stalk";
 	}
 
 }
