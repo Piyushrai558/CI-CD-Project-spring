@@ -11,4 +11,7 @@ public class WelcomeController {
 		return "Deploying rest api through elastic bean stalk";
 	}
 
+	@GetMapping("/")
+	public String homepage() {return  "This is home page";}
+
 }
